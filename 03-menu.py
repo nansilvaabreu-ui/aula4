@@ -42,8 +42,10 @@ def Somatorio():
     print(f"O somatório é:", {soma})
 def Fatorial():
     numero = int(input("Digite um número: "))
+    
     contador = 1
     resultado = 1
+    
     while contador <= numero:
         resultado = resultado * contador
         contador = contador + 1
